@@ -1,0 +1,103 @@
+body
+{
+    background-color: #778899;
+    width: 100%;
+    height: 100%;
+}
+div.container
+{
+    position: relative;
+    width: 80%;
+    height: 80%;
+    margin: 10%;
+    padding: 0.3%;
+    background-color: bisque;
+}
+div.child_a
+{
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 100%;
+    background-image: url('nature.jpeg');
+    background-repeat:no-repeat;
+    
+    background-size: cover;
+}
+span.n
+{
+    margin-left: 4%;
+    padding-top: 500px;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: 26px;
+    font-weight: bold;
+}
+
+span.p
+{
+    margin-left: 4%;
+    text-transform: uppercase;
+    color: #7fff00;
+    padding-bottom: 500px;
+}
+h4.red
+{
+    color: #ff0000;
+    text-transform: uppercase;
+    padding: 10px;
+}
+p
+{
+    padding-left: 10px;
+}
+div.para
+{
+    position: relative;
+    clear: both;
+    float: left;
+    width: 80%;
+    min-height:450px;
+    background-color:bisque;
+    
+}
+p.see
+{
+    padding: 5%;
+    width: 70%;
+    color:#ffffff;
+    margin: 10%;
+    background-color: #556b2f;
+    background-size: cover;
+    
+}
+div.west
+{
+    position: relative;
+    width: 19.7%;
+    min-height:450px;
+    float: left;
+    background-color: #fab761;
+    border-left:2px dotted;
+    border-color: #ad6a13;
+}
+h3
+{
+    margin-left: 10%;
+    color: #f00;
+}
+ul
+{
+    type="square";
+}
+div.footer
+{
+    clear: both;
+    position: relative;
+    padding:10px 0;
+    width: 100%;
+    height: 15%;
+    color: #fff;
+    background-color: dimgrey;
+    text-align:center;
+}
