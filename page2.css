@@ -1,4 +1,5 @@
-*{box-sizing: border-box;}
+*{box-sizing: border-box;
+overflow:auto;}
 body
 {
     background-color: #778899;
