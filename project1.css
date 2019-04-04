@@ -1,3 +1,4 @@
+*{box-sizing: border-box;}
 div
 {
     
@@ -31,14 +32,14 @@ div.container
     width: 15%;
     height: 15%;
     padding: 0.4%;
-    border-radius: 5%;
+    border-radius: 5px;
         
 }
 div.child
 {
     
     background-color: #08efef;
-    border-radius: 5%;
+    border-radius: 5px;
     border-color: #055050;
     direction: ltr;
     text-align: left;
@@ -63,7 +64,7 @@ div.containerd
     margin: 1%;
     background-color: #aceded;
     padding: 0.5%;
-    border-radius: 3%;
+    border-radius: 3px;
     height: 50%;
     direction: ltr;
     
@@ -73,7 +74,7 @@ div.childa
     font-size: 10px;
     background-color: #FFF;
     float: left;
-    border-radius: 3%;
+    border-radius: 3px;
     border-color: #DDD;
     direction: ltr;
     text-align: left;
@@ -101,7 +102,7 @@ div.contain
     margin : 2%;
      background-color: #aceded;
      padding: 0.5%;
-    border-radius: 2%;
+    border-radius: 2px;
     height: 50%;
     direction: ltr;
 }
@@ -111,7 +112,7 @@ div.ch
     font-size: 10px;
     background-color: #FFF;
     float: right;
-    border-radius: 3%;
+    border-radius: 3px;
     border-color: #DDD;
     direction: ltr;
     text-align: left;
